@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 9043418662306403322}
   - component: {fileID: 3097434795685411456}
   - component: {fileID: 6904547465032372181}
-  - component: {fileID: 2613388345479260072}
   - component: {fileID: 5252462299742120652}
   m_Layer: 0
   m_Name: Marker
@@ -299,50 +298,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.030000001, y: 0, z: 0.030000001}
   m_Center: {x: -0.23094201, y: 0.00010000169, z: -0.21108222}
---- !u!114 &2613388345479260072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3232522386594871240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bb87916f59f52349b237e7ce66a84a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _location:
-    _latitude: 48.738
-    _longitude: 21.257
-  _altitude: 100
-  _altitudeReference: 2
-  _isLayerSynchronized: 1
-  _useRealWorldScale: 0
-  _scaleCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 20
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _showOutsideMapBounds: 0
 --- !u!114 &5252462299742120652
 MonoBehaviour:
   m_ObjectHideFlags: 0
